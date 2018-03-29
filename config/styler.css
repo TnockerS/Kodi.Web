@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04.01.2018, 11:47:34
+    Author     : x-cite
+*/
+body{
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+        background:url("../Image/blood-spatter-wall.jpg")top center no-repeat;
+    background-size:100% 100%;
+background-attachment:fixed;
+
+}
+.main{
+    background:url("../Image/blood-spatter-wall.jpg")top center no-repeat;
+    background-size:100% 100%;
+background-attachment:fixed;
+    height: 100vh;
+    width: 100%;
+}
+.image{
+    float: left;
+    width: calc(100% / 6);
+    height: calc((100% / 6)*0.66667);
+    display: inline-block;
+    border: 1px solid;
+}
+.image img{
+  /*  width: calc(100% / 4);
+    height: calc((100% / 4)*0.66667);*/
+  display: inline-block;
+    width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+.ue{
+    text-align: center;
+    font-size: 1.5em;
+    background: -moz-linear-gradient(center top , #363636 0%, #272727 20px) no-repeat scroll 0% 0% #272727;
+    
+}
+.login{
+    position: absolute;
+    width: 300px;
+    left:50%;
+    margin-left:-150px;
+    height: 100px;
+    top: 50%;
+    margin-top: -50px;
+    padding-top: 25px;
+    padding-bottom: -25px;
+    overflow: scroll;
+    background:rgb(0, 0, 0, 0.5);
+    text-align: center;
+}
+.round {
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+.text_shadow_white{
+    text-shadow: #fff -1px 1px 0px, #fff 1px 0px 0px;
+    
+}
+.text_shadow_black{
+        text-shadow: #000 -1px 1px 0px, #000 1px 0px 0px;
+}
+.shadow{
+    -moz-box-shadow: 1px 5px 10px #000;
+-webkit-box-shadow: 1px 5px 10px #000;
+box-shadow: 1px 2px 10px #000;
+}
+.bn, .pwd{
+    background: #FFF;
+    border:1px solid;
+    height: 25px;
+    margin-bottom:10px;
+    width: 200px;
+    margin-left: 50px;
+}
+.login_btn{
+    width:100px;
+    margin-left:100px;
+    color: #FFF;
+    background:-moz-linear-gradient(center top , #363636 0%, #272727 20px) no-repeat scroll 0% 0% #272727;
+    text-align: center;
+    cursor: pointer;
+}
+.left_menu{
+    display: none;
+    
+    margin-left: 0px;
+   /* float: left;*/
+    background:rgb(0, 0, 0, 0.5);
+    border: 1px solid;
+}
+.left_menu ul{
+    display: none;
+    list-style: none;
+    margin-left:25%;
+    /*margin-left: -25%;*/
+}
+.left_menu ul li{
+    display: block;
+    width: 200px;
+    float: left;
+        background:-moz-linear-gradient(center top , #363636 0%, #272727 20px) no-repeat scroll 0% 0% #272727;
+        color: #FFF;
+        margin-top:-10px;
+        margin-left:-40px;
+        line-height: 30px;
+        margin-bottom: 3px;
+        text-align: center;
+         text-shadow: #000 -1px 1px 0px, #000 1px 0px 0px;
+         cursor: pointer;
+
+
+}
+.hidden{
+    display: none;
+}
+.file{
+    float: left;
+    width: 200px;
+    height: 296px;
+    margin-right:5px;
+    margin-top:5px;
+
+}
+.file img{
+    width: 200px;
+}
+.mv_container{
+    position: absolute;
+    left:0px;
+    top: 0px;
+    background:rgb(0, 0, 0, 0.7);
+    width: 100%;
+    z-index:1000000;
+}
+.mv_container .mv video{
+    margin-left:10%;
+}
+.closer{
+    right: -100px;
+    width: 100px;
+    border: solid 1px;
+    height: 35px;
+    float: right;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 35px;
+    background:#000;
+    cursor: pointer;
+
+}
